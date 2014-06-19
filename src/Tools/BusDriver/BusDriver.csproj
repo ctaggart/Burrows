@@ -79,9 +79,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\SolutionVersion.cs">
-      <Link>SolutionVersion.cs</Link>
-    </Compile>
     <Compile Include="CommandParser.cs" />
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\ExitCommand.cs" />

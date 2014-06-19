@@ -52,9 +52,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\SolutionVersion.cs">
-      <Link>SolutionVersion.cs</Link>
-    </Compile>
     <Compile Include="AutofacConsumerFactory.cs" />
     <Compile Include="AutofacConsumerFactoryConfigurator.cs" />
     <Compile Include="AutofacExtensions.cs" />
@@ -69,7 +66,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Burrows.Autofac.nuspec" />
+    <None Include="Burrows.Autofac.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
